@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from lettuce import *
+from lettuce import step, world
 import sys
 sys.path.append('../')
 from Commission import Commission
